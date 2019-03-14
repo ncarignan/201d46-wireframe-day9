@@ -93,9 +93,16 @@ article p {
 article button{
   height: 45px;
   width: 160px;
+  transition: 350ms;
 }
 
 footer{
   height: 120px;
   background: #888;
+}
+
+article button:hover{
+  background: #222;
+  color: #eee;
+  transition:350ms;
 }
